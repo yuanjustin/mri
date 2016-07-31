@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<body  data-spy="scroll" data-target="#navBar">
+<div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span2">
+                    <ul id="navBar" class="nav nav-list   affix"  >
+                        <li class="nav-header">
+                            开始
+                        </li>
+                        <li class="active">
+                            <a href="#open">打开文件</a>
+                        </li>
+                        <li>
+                            <a href="#import">导入</a>
+                        </li>
+                        <li>
+                            <a href="#setting">设置</a>
+                        </li>
+
+                        <li class="nav-header">
+                            功能列表
+                        </li>
+                        <li>
+                            <a href="#calculate">开始计算</a>
+                        </li>
+                        <li>
+                            <a href="#select">选择合适方案</a>
+                        </li>
+                        <li class="nav-header">
+                            导出
+                        </li>
+                        <li>
+
+                            <a href="#outportPic"> 图片格式</a>
+                            <a href="#test"> 图片格式</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="span10" >
+                    <br><br><br><br>
+
+                    <h1 id="open" >打开</h1>
+                    <div class="row-fluid" >
+                        <div class="span12">
+
+                            <button class="btn" type="button">按钮</button>
+                        </div>
+                    </div>
+                    <br><br><br><br>
+                    <h1 id="import" >导入</h1>
+
+                    <div  class="row-fluid span12">
+                        </ul>
+                        <ul id="myTab" class="nav nav-tabs">
+                            <li class="active"><a href="#tab1" data-toggle="tab">序列1</a></li>
+                            ...
+                        </ul>
+                        <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane fade active in" id="tab1">
+                            <ul class="thumbnails">
+                                <li class="span4">
+                                    <a href="#" class="thumbnail">
+                                        <img src="img/glyphicons-halflings.png" >
+                                    </a>
+                                </li>
+                                ...
+                            </ul>
+                        </div>
+
+                            <br><br>
+                            <ul class="thumbnails">
+                                <li class="span4">
+                                    <label>矢状位</label>
+                                    <a href="#" class="thumbnail" id="selectPic1">
+                                        <img src="img/glyphicons-halflings.png" >
+                                    </a>
+                                </li>
+                                <li class="span4">
+                                    <label>冠状位</label>
+                                    <a href="#" class="thumbnail" id="selectPic2">
+                                        <img src="img/glyphicons-halflings.png" >
+                                    </a>
+                                </li>
+                                <li class="span4">
+                                    <button class="btn btn-large btn-primary" type="button">重置</button>
+                                    <button class="btn btn-large btn-primary" type="button">交换顺序</button>
+
+                                </li>
+
+                            </ul>
+                    </div>
+                    </div>
+
+                    <br><br><br><br>
+                    <h1 id="setting" >设置</h1>
+
+                    <div  class="row-fluid">
+                        <div class="span12">
+                            <form>
+                                <fieldset>
+                                    <legend>表单项</legend> <label>表签名</label><input type="text" /> <span class="help-block">这里填写帮助信息.</span> <label class="checkbox"><input type="checkbox" /> 勾选同意</label> <button type="submit" class="btn">提交</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <br><br><br><br>
+                    <h1 id="calculate" >计算</h1>
+
+                    <div  class="row-fluid">
+                        <div class="span12">
+                            <div class="progress  progress-striped active">
+                                <div class="bar" style="width: 40%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br><br>
+
+<h1 id="outportPic" >导出图片</h1>
+
+                    <div  class="row-fluid">
+                        <div class="span12">
+                            <button class="btn" type="button">按钮</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+</body>
+
+</html>
